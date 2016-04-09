@@ -17,5 +17,11 @@ $(document).ready(function(){
 		controls: true
 	});
 
+	$(function () {
+  		$('[data-toggle="tooltip"]').tooltip();
+	});
+
+	$('.add-to-cart-product').tooltip('show')
+
 });
 
