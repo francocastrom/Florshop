@@ -464,7 +464,7 @@ $(document).ready(function(){
   		$('[data-toggle="tooltip"]').tooltip();
 	});
 
-	//$('.add-to-cart-product').tooltip('show')
+	$('.add-to-cart-product').tooltip('show');
 
 });
 
